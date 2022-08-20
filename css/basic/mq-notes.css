@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+  .note-add form {
+    display: block;
+    width: 85%;
+  }
+
+  .note-add form input,
+  .note-add form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .note-filter {
+    width: 85%;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .note-filter input,
+  .note-filter select {
+    display: block;
+  }
+
+  .note-card button {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .note-card {
+    width: calc(33% - 15px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .note-card {
+    width: calc(50% - 15px);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .note-card {
+    width: 100%;
+  }
+}
